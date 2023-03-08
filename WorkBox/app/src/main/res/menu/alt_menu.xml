@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/anaSayfaFragment" android:title="@string/anasayfa" android:icon="@drawable/home"/>
+        <item android:id="@+id/filmFragment" android:title="@string/filmler" android:icon="@drawable/movie"/>
+        <item android:id="@+id/kategoriFragment" android:title="@string/kategoriler" android:icon="@drawable/category"/>
+        <item android:id="@+id/ayarlarFragment2" android:title="@string/ayarlar" android:icon="@drawable/settings"/>
+</menu>

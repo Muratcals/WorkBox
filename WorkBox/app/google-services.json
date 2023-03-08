@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "719761667920",
+    "project_id": "workbox-7f997",
+    "storage_bucket": "workbox-7f997.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719761667920:android:0755929769df1d1bf61e55",
+        "android_client_info": {
+          "package_name": "com.muratcalis.workbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719761667920-fc101lmkaba0vac73p6n6vlj9ss9608a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjlGNA_lfKPnZ5LzUKdZeTFBId9CJ_Emk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719761667920-fc101lmkaba0vac73p6n6vlj9ss9608a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/oyuncuImage"
+        android:layout_width="120dp"
+        android:layout_height="170dp"
+        android:src="@drawable/yildizlararasi"
+        android:scaleType="fitXY"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/oyuncuIsim"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="ali ata bak"
+        android:layout_marginEnd="5dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_marginStart="8dp"/>
+    <TextView
+        android:id="@+id/oyuncuIsim2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="ali ata bak"
+        android:layout_marginEnd="5dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#888888"
+        android:layout_marginStart="8dp"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/yeni_cikanlar" android:title="@string/yeni_kanlar" />
+    <item android:id="@+id/cok_izlenen" android:title="@string/en_ok_zlenenler"/>
+</menu>

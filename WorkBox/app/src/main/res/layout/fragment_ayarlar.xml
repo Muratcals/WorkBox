@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".view.AyarlarFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/bozuk_film"
+            android:layout_width="411dp"
+            android:layout_height="40dp"
+            android:paddingStart="15dp"
+            android:paddingTop="2dp"
+            android:layout_marginTop="25dp"
+            android:text="Bozuk Film Bildir"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/oneri"
+            android:layout_width="411dp"
+            android:layout_height="40dp"
+            android:paddingStart="15dp"
+            android:paddingTop="2dp"
+            android:text="Öneride Bulun"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="25dp" />
+
+
+        <TextView
+            android:id="@+id/linkedin"
+            android:layout_width="411dp"
+            android:layout_height="40dp"
+            android:paddingStart="15dp"
+            android:paddingTop="2dp"
+            android:text="Linkedin Hesabım"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="411dp"
+            android:layout_height="40dp"
+            android:paddingStart="15dp"
+            android:paddingTop="2dp"
+            android:text="Mail Adresim"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/instagram"
+            android:layout_width="411dp"
+            android:layout_height="40dp"
+            android:paddingStart="15dp"
+            android:paddingTop="2dp"
+            android:text="Instagram Adresim"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="25dp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

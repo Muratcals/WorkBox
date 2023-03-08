@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grapht"
+    app:startDestination="@id/anaSayfaFragment">
+
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.muratcalis.workbox.view.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa"
+        app:enterAnim="@android:anim/slide_out_right"
+        app:popExitAnim="@android:anim/slide_out_right">
+        <action
+            android:id="@+id/action_anaSayfaFragment_to_filmDetayFragment"
+            app:destination="@id/filmDetayFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/kategoriFragment"
+        android:name="com.muratcalis.workbox.view.KategoriFragment"
+        android:label="fragment_kategori"
+        tools:layout="@layout/fragment_kategori"
+        app:enterAnim="@android:anim/slide_out_right"
+        app:popExitAnim="@android:anim/slide_out_right">
+        <action
+            android:id="@+id/action_kategoriFragment_to_filmDetayFragment"
+            app:destination="@id/filmDetayFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_kategoriFragment_to_kategoriDetayFragment"
+            app:destination="@id/kategoriDetayFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/filmFragment"
+        android:name="com.muratcalis.workbox.view.FilmFragment"
+        android:label="fragment_film"
+        tools:layout="@layout/fragment_film" >
+        <action
+            android:id="@+id/action_filmFragment_to_filmDetayFragment"
+            app:destination="@id/filmDetayFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <argument
+            android:name="kategori"
+            app:argType="string"
+            android:defaultValue="aksiyon" />
+    </fragment>
+    <fragment
+        android:id="@+id/filmDetayFragment"
+        android:name="com.muratcalis.workbox.view.FilmDetayFragment"
+        android:label="fragment_film_detay"
+        tools:layout="@layout/fragment_film_detay">
+        <argument
+            android:name="filmId"
+            app:argType="string" />
+        <argument
+            android:name="filmAd"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/kategoriDetayFragment"
+        android:name="com.muratcalis.workbox.view.KategoriDetayFragment"
+        android:label="fragment_kategori_detay"
+        tools:layout="@layout/fragment_kategori_detay" >
+        <argument
+            android:name="turAdi"
+            app:argType="string"
+            android:defaultValue="Aksiyon" />
+        <action
+            android:id="@+id/action_kategoriDetayFragment_to_filmDetayFragment"
+            app:destination="@id/filmDetayFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/ayarlarFragment2"
+        android:name="com.muratcalis.workbox.view.AyarlarFragment"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_ayarlar" >
+        <action
+            android:id="@+id/action_ayarlarFragment2_to_bozukFilmFragment"
+            app:destination="@id/bozukFilmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bozukFilmFragment"
+        android:name="com.muratcalis.workbox.view.BozukFilmFragment"
+        android:label="fragment_bozuk_film"
+        tools:layout="@layout/fragment_bozuk_film" />
+</navigation>

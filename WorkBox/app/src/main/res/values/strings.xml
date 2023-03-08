@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WorkBox</string>
+    <string name="anasayfa">AnaSayfa</string>
+    <string name="filmler">Filmler</string>
+    <string name="kategoriler">Kategoriler</string>
+    <string name="ayarlar">Ayarlar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yeni_kanlar">Yeni Çıkanlar</string>
+    <string name="en_ok_zlenenler">En Çok İzlenenler</string>
+    <string name="marvel_filmleri">Marvel Filmleri</string>
+    <string name="dc_filmleri">DC Filmleri</string>
+</resources>
